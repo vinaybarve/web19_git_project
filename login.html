@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div {
+            text-align: center;
+        }
+        form {
+            width: 400px;
+            border: 1px solid rgb(230, 230, 230);
+            margin: 3% auto;
+            padding: 3%;
+            background: white;
+         }
+         #login {
+             width: 80%;
+             margin-top: 20px;
+             padding: 10px;
+             background-color: #4786d1;
+             color: white;
+             border: none;
+             border-radius: 15px;
+         }
+         #email {
+             width: 80%;
+             margin-top: 20px;
+             padding: 10px;
+         }
+         #password {
+             width: 80%;
+             margin-top: 15px;
+             padding: 10px;
+         }
+         p {
+             padding: 5px;
+             margin-top: 5px;
+         }
+    </style>
+</head>
+<body>
+    <div>
+        <form id="form">
+            <h1>Login</h1>
+            <input id="email" placeholder="Email" type="text"/>
+            <input id="password" placeholder="Password" type="text"/>
+            <input id="login" type="Submit" value="login"/>
+            <p>Forgot
+                <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Password?</a>
+            </p>
+            <p>Don't have an account?
+                <a href="https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=SignUp">Sign up</a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
